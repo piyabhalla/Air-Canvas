@@ -1,9 +1,9 @@
-**Description**
+**Description:**
 This code creates an "Air Canvas" where hand movements tracked via a webcam are used to draw on a virtual canvas.
 It utilizes Python with OpenCV for image processing, Mediapipe for hand tracking, and NumPy for managing points and colors.
 
 
-**Algorithm**
+**Algorithm:**
 Start reading the frames and convert the captured frames to HSV colour space.(Easy for colour detection)
 Prepare the canvas frame and put the respective ink buttons on it.
 Adjust the values of teh mediapipe intilization to detect one hand only.
